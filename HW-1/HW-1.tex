@@ -100,13 +100,13 @@
 
 \prob{2.3}  Let $\mathbb{P}^n$ be the set of all $n$-dimensional probability vectors.  Futhermore, let $\vec{p}$ be any element of $\mathbb{P}^n$ ($\vec{p} \in \mathbb{P}^n$) and define $\vec{p}$ as $\vec{p} = \left( p_1, p_2, \dots, p_i, \dots, p_n \right)$, where $i \in \mathbb{Z}^+ \ni i \leq n$.  By the definition of a probability space, we must have
 
-\begin{align*}
-\vec{p} \cdot \vec{1} = \sum_{i=1}^n \left\{ p_i \right\} = 1  \; , \; \, \forall \vec{p} \in \mathbb{P}^n,
+\begin{align*} \label{c2p3eq1}
+\vec{p} \cdot \vec{1} = \sum_{i=1}^n \left\{ p_i \right\} = 1  \; , \; \, \forall \vec{p} \in \mathbb{P}^n, \tag{2.3-1}
 \end{align*}
 
 where $\vec{1} = \left( 1, 1, \dots, 1, \dots, 1 \right)$ is the $n$-dimensional vector having the value $1$ for each of its components.  Additionally, we may equivalently state, that for $i \in \mathbb{Z}^+ \ni i \leq n$, the vector $\vec{1}$ can be defined as $\vec{1} = \left( q_1, q_2, \dots, q_i, \dots, q_n \right)$ where $q_i = 1, \forall i \in [1, n] \subseteq \mathbb{Z}^+$. \newline
 
-Now, $\forall i \in \mathbb{Z}^+ \ni i \leq n$, it is clear that the relation $p_i \log_2 \left[ p_i \right] \geq 0$, holds.  Moreover, it is also apparent that the relation $p_i \log_2 \left[ p_i \right] \geq 0$ simplifies to equality ($p_i \log_2 \left[ p_i \right] = 0$) for the cases where either $p_i = 0$ or $p_i = 1$. \newline
+Now, $\forall i \in \mathbb{Z}^+ \ni i \leq n$, it is clear that the relation $p_i \log_2 \left[ p_i \right] \geq 0$, holds.  Moreover, it is also apparent that the relation $p_i \log_2 \left[ p_i \right] \geq 0$ simplifies to equality ($p_i \log_2 \left[ p_i \right] = 0$) for the cases where either $p_i = 0$ or $p_i = 1$.  Now, from the result in \ref{c2p3eq1}, it is clear that \emph{only} \textbf{\underline{ONE}} $p_i$ in each $\vec{p} \in \mathbb{P}^n$ may have the value $p_i = 1$.  Moreover, for the case where one element $p_i$ of $\vec{p}$ has the value $p_i = 1$, the expression in \ref{c2p3eq1} also requires that $p_j = 0, \forall j \in \left[ 1, n \right] \subseteq \mathbb{Z}^+ \ni j \neq i$.  That is to say, of one element $p_i$ of $\vec{p}$ is such that $p_i = 1$, then all other elements of $\vec{p}$, $p_j$ (where $j \in \mathbb{Z}^+ \ni j \leq n, j \neq i$), must be zero ($p_i = 0, \forall j \in \ left[ 1, n \right] \subseteq \mathbb{Z}^+ \ni j \neq i$).   \newline
 
 
 
