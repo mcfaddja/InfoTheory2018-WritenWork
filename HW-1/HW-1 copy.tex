@@ -98,13 +98,19 @@
 
 
 
-\prob{2.3}  Let $\mathbb{P}^n$ be the set of all $n$-dimensional probability vectors.  Futhermore, let $\vec{p}$ be any element of $\mathbb{P}^n$ ($\vec{p} \in \mathbb{P}^n$) and define $\vec{p}$ as $\vec{p} = \left( p_1, p_2, \dots, p_i, \dots, p_n \right)$, where $i \in \mathbb{Z}^+ \ni i \leq n$.  By the definition of a probability space, we must have
+\prob{2.3}  Let $\mathbb{P}^n$ be the set of all $n$-dimensional probability vectors.  Moreover, let $\vec{p}$ and $\vec{p}^\star$ be such that $\vec{p}, \vec{p}^\star \in \mathbb{P}^n$; $\vec{p} = \left( p_1, p_2, \dots, p_i, \dots, p_n \right)$; and $\vec{p}^\star = \left( p_1^\star, p_2^\star, \dots, p_i^\star, \dots, p_n^\star \right)$, where $i \in \mathbb{Z}^+ \ni i \leq n$.  By the definition of a probability space, we must have
 
 \begin{align*}
-\vec{p} \cdot \vec{1} = \sum_{i=1}^n \left\{ p_i \right\} = 1  \; , \; \, \forall \vec{p} \in \mathbb{P}^n,
+\vec{p} \cdot \vec{1} = \sum_{i=1}^n \left\{ p_i \right\} = 1  \; , \; \, \forall \vec{p} \in \mathbb{P}^n
 \end{align*}
 
-where $\vec{1} = \left( 1, 1, \dots, 1, \dots, 1 \right)$ is the $n$-dimensional vector having the value $1$ for each of its components.  It is clear that, $p_i \, \log_2 \left[ p_i \right] \geq 0$ hold $\forall i \in \mathbb{Z}^+ \ni i \leq n$.  Moreover, it is also clear that $p_i \, \log_2 \left[ p_i \right] = 0$ only for the case where $p_i = 0$ or $p_i = 1$.
+and
+
+\begin{align*}
+\vec{p}^\star \cdot \vec{1} = \sum_{i=1}^n \left\{ p_i^\star \right\} = 1  \; , \; \, \forall \vec{p}^\star \in \mathbb{P}^n,
+\end{align*}
+
+where $\vec{1} = \left( 1, 1, \dots, 1, \dots, 1 \right)$ is the $n$-dimensional vector having the value $1$ for each of its components.  Now, since $p_i \, \log_2 \left[ p_i \right] \geq 0$ for all $i \in \mathbb{Z}^+ \ni i \leq n$ and $p_i \, \log_2 \left[ p_i \right] = 0$ for $p_i = 0$ and $p_i = 1$
 
 
 
