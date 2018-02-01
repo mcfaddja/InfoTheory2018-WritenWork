@@ -139,22 +139,79 @@
 
 \vspace{0.5in}
 
-\subfile{ProblemTEXfiles/prob2-4a}
+\prob{2.4 a}  Recall the chain-rule for conditional entropies of $X$ given $Y$,
+
+\begin{align}  \label{c2p4eq1}
+H \left( X \mid Y \right) = H \left( X, Y \right) - H \left( Y \right)  \tag{2.4-1}
+\end{align}
+
+We apply the expression in \ref{c2p4eq1} to the case of $g \left( X \right)$ given $X$ to obtain
+
+\begin{align} 
+H \left( g \left( X \right) \mid X \right) = H \left( g \left( X \right), X \right) - H \left( X \right) 
+\end{align}
+
+by rearranging the expression in the previous result as follows,
+
+\begin{align} \label{c2p4eq2} 
+H \left( g \left( X \right), X \right) = H \left( X \right) + H \left( g \left( X \right) \mid X \right)  \tag{2.4-2}
+\end{align}
+
+we obtain the desired result.
+
 
 
 \vspace{0.5in}
 
-\subfile{ProblemTEXfiles/prob2-4b}
+\prob{2.4 b}  For any given value of $X$, we automatically know $g \left( X \right)$.  Therefore, the expression for $H \left( g \left( X \right), X \right)$ in \ref{c2p4eq2} becomes
+
+\begin{align*} 
+H \left( g \left( X \right), X \right) = H \left( X \right)  
+\end{align*}
+
+which is the desired result.
+
 
 
 \vspace{0.5in}
 
-\subfile{ProblemTEXfiles/prob2-4c}
+\prob{2.4 c}  Recalling the expression for the conditional entropy chain rule in \ref{c2p4eq1} and using it for the case where $X = X$ and $Y = g \left( X \right)$ yields the result
+
+\begin{align*} 
+H \left( X \mid g \left( X \right) \right) = H \left( X, g \left( X \right) \right) - H \left( g \left( X \right) \right)  
+\end{align*}
+
+rearranging the above expression yields 
+
+\begin{align} \label{c2p4eq3}
+H \left( X, g \left( X \right) \right) = H \left( g \left( X \right) \right) + H \left( X \mid g \left( X \right) \right)  \tag{2.4-3}
+\end{align}
+
+we obtain the desired result.
+
 
 
 \vspace{0.5in}
 
-\subfile{ProblemTEXfiles/prob2-4d}
+\prob{2.4 d}  For any arbitrary function, $g \left( X \right)$, of a random variable $X$, the entropy $H \left( X \mid g \left( X \right)\right)$ satisfies the condition
+
+\begin{align} \label{c2p4eq4}
+H \left( X \mid g \left( X \right)\right) \geq 0  \tag{2.4-4}
+\end{align}
+
+for the case where $g \left( X \right)$ is one-to-one, the relation in \ref{c2p4eq4} simplifies to
+
+\begin{align*}
+H \left( X \mid g \left( X \right)\right) = 0
+\end{align*}
+
+Applying the relation in \ref{c2p4eq4} to the expression in \ref{c2p4eq3} yields
+
+\begin{align*}
+H \left( X, g \left( X \right) \right) &= H \left( g \left( X \right) \right) + H \left( X \mid g \left( X \right) \right) \\
+&\geq H \left( g \left( X \right) \right) + H \left( X \mid g \left( X \right) \right) - H \left( X \mid g \left( X \right)\right) \\
+&\geq H \left( g \left( X \right) \right)
+\end{align*}
 
 
 

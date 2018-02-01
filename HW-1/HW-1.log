@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,19 +6,20 @@ entering extended mode
 (./HW-1.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -51,13 +52,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count87
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count88
-\leftroot@=\count89
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count90
-\DOTSCASE@=\count91
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -66,15 +67,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks16
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks17
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -135,7 +136,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count99
+\Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
@@ -152,46 +153,156 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cancel/cancel.sty
-Package: cancel 2013/04/12 v2.2 Cancel math terms
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count101
+\calc@Bcount=\count102
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count103
+\calc@Cskip=\skip60
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen116
+\origjot=\skip61
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count105
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip62
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip63
+\skiplinenumber=\skip64
+\skiprule=\skip65
+\skiphlne=\skip66
+\skiptext=\skip67
+\skiplength=\skip68
+\algomargin=\skip69
+\skipalgocfslide=\skip70
+\algowidth=\dimen123
+\inoutsize=\dimen124
+\inoutindent=\dimen125
+\interspacetitleruled=\dimen126
+\interspacealgoruled=\dimen127
+\interspacetitleboxruled=\dimen128
+\algocf@ruledwidth=\skip71
+\algocf@inoutbox=\box28
+\algocf@inputbox=\box29
+\AlCapSkip=\skip72
+\AlCapHSkip=\skip73
+\algoskipindent=\skip74
+\algocf@nlbox=\box30
+\algocf@hangingbox=\box31
+\algocf@untilbox=\box32
+\algocf@skipuntil=\skip75
+\algocf@capbox=\box33
+\algoheightruledefault=\skip76
+\algoheightrule=\skip77
+\algotitleheightruledefault=\skip78
+\algotitleheightrule=\skip79
+\c@algocfline=\count106
+\c@algocfproc=\count107
+\c@algocf=\count108
+\algocf@algoframe=\box34
+\algocf@algobox=\box35
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count109
+\c@ALG@rem=\count110
+\c@ALG@nested=\count111
+\ALG@tlm=\skip80
+\ALG@thistlm=\skip81
+\c@ALG@Lnr=\count112
+\c@ALG@blocknr=\count113
+\c@ALG@storecount=\count114
+\c@ALG@tmpcounter=\count115
+\ALG@tmplength=\skip82
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count100
-\mult@box=\box28
-\multicol@leftmargin=\dimen114
-\c@unbalance=\count101
-\c@collectmore=\count102
-\doublecol@number=\count103
-\multicoltolerance=\count104
-\multicolpretolerance=\count105
-\full@width=\dimen115
-\page@free=\dimen116
-\premulticols=\dimen117
-\postmulticols=\dimen118
-\multicolsep=\skip58
-\multicolbaselineskip=\skip59
-\partial@page=\box29
-\last@line=\box30
-\maxbalancingoverflow=\dimen119
-\mult@rightbox=\box31
-\mult@grightbox=\box32
-\mult@gfirstbox=\box33
-\mult@firstbox=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
+\c@tracingmulticols=\count116
+\mult@box=\box36
+\multicol@leftmargin=\dimen129
+\c@unbalance=\count117
+\c@collectmore=\count118
+\doublecol@number=\count119
+\multicoltolerance=\count120
+\multicolpretolerance=\count121
+\full@width=\dimen130
+\page@free=\dimen131
+\premulticols=\dimen132
+\postmulticols=\dimen133
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
+\partial@page=\box37
+\last@line=\box38
+\maxbalancingoverflow=\dimen134
+\mult@rightbox=\box39
+\mult@grightbox=\box40
+\mult@gfirstbox=\box41
+\mult@firstbox=\box42
 \@tempa=\box43
 \@tempa=\box44
 \@tempa=\box45
@@ -201,43 +312,80 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count106
-\c@finalcolumnbadness=\count107
-\last@try=\dimen120
-\multicolovershoot=\dimen121
-\multicolundershoot=\dimen122
-\mult@nat@firstbox=\box52
-\colbreak@box=\box53
-\mc@col@check@num=\count108
-) (./HW-1.aux)
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\c@columnbadness=\count122
+\c@finalcolumnbadness=\count123
+\last@try=\dimen135
+\multicolovershoot=\dimen136
+\multicolundershoot=\dimen137
+\mult@nat@firstbox=\box60
+\colbreak@box=\box61
+\mc@col@check@num=\count124
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read1
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen138
+\captionmargin@=\dimen139
+\captionwidth=\dimen140
+\caption@tempdima=\dimen141
+\caption@indent=\dimen142
+\caption@parindent=\dimen143
+\caption@hangindent=\dimen144
+)
+\c@ContinuedFloat=\count125
+)
+(./HW-1.aux
+
+LaTeX Warning: Label `c2p4eq3' multiply defined.
+
+)
 \openout1 = `HW-1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen123
-\scratchbox=\box54
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen124
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count126
+\scratchdimen=\dimen145
+\scratchbox=\box62
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen146
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -287,53 +435,70 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 72.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 108.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 72.
+(./ProblemTEXfiles/prob2-3.tex [1{/usr/local/texlive/2017/texmf-var/fonts/map/p
+dftex/updmap/pdftex.map}
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+]) (./ProblemTEXfiles/prob2-4a.tex
+Underfull \vbox (badness 3977) has occurred while \output is active []
 
-] [2] [3] (./HW-1.aux) ) 
+ [2])
+(./ProblemTEXfiles/prob2-4b.tex) (./ProblemTEXfiles/prob2-4c.tex [3])
+(./ProblemTEXfiles/prob2-4d.tex)
+
+Package caption Warning: Unused \captionsetup[ruled] on input line 20.
+See the caption package documentation for explanation.
+
+[4] (./HW-1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1061 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 2810 strings out of 492995
- 37592 string characters out of 6132704
- 107396 words of memory out of 5000000
- 6306 multiletter control sequences out of 15000+600000
- 13826 words of font info for 59 fonts, out of 8000000 for 9000
+ 6349 strings out of 492995
+ 94515 string characters out of 6132704
+ 181651 words of memory out of 5000000
+ 9789 multiletter control sequences out of 15000+600000
+ 13190 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,43p,648b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb>
-Output written on HW-1.pdf (3 pages, 123330 bytes).
+ 39i,12n,43p,682b,3317s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbxti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on HW-1.pdf (4 pages, 124341 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

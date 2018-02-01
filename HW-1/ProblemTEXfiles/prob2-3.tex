@@ -1,0 +1,70 @@
+\documentclass[ClusteringConnectionsMAIN.tex]{subfiles}
+
+
+
+
+\begin{document}
+	
+\prob{2.3}  Let $\mathbb{P}^n$ be the set of all $n$-dimensional probability vectors, with elements $\vec{p} \in \mathbb{P}^n$ defined as $\vec{p} = \left( p_1, p_2, \dots, p_i, \dots, p_n \right)$ for $i \in \mathbb{Z}^+ \ni i \leq n$.  By the definition of a probability space, we must have
+
+\begin{align} \label{c2p3eq1}
+\vec{p} \cdot \vec{1} = \sum_{i = 1}^n \left\{ p_i \right\} = 1  \; \; , \; \; \, \forall \vec{p} \in \mathbb{P}^n, \tag{2.3-1}
+\end{align}
+
+where vector $\vec{1}$ is defined as $\vec{1} = \left( q_1, q_2, \dots, q_k, \dots, q_n \right) \in \mathbb{Z}^n$ with $q_k = 1, \forall k \in \left[ 1, n \right]$ (\emph{where the interval} $\left[ 1, n \right]$ \emph{is defined such that} $\left[ 1, n \right] \subseteq \mathbb{Z}^+$). Futhermore, the definition of a probability space also requires that, for any $\vec{p} \in \mathbb{P}^n$, the elements of $\vec{p}$ (\emph{the} $p_i \in \vec{p}$ \emph{such that} $i \in \mathbb{Z}^+ \ni i \leq n$) satisfy the condition
+
+\begin{align} \label{c2p3eq2}
+p_i \geq 0  \tag{2.3-2} 
+\end{align}
+
+for all $i \in \mathbb{Z}^+ \ni i \leq n$. \newline
+
+
+The expression in \ref{c2p3eq1} guarantees that the $p_i$ of any $\vec{p} \in \mathbb{P}^n$ satisfy the bound $0 \leq p_i \leq 1$ where $i \in \mathbb{Z}^+ \ni i \leq n$.  Therefore, the relation
+
+\begin{align} \label{c2p3eq3}
+p_i \log_2 \left[ p_i \right] \geq 0  \tag{2.3-3}
+\end{align}
+
+holds for all $p_i$ of any $\vec{p} \in \mathbb{P}^n$.  Moreover, for the cases where $p_i = 0$ or $p_i = 1$, it is clear that the expression in \ref{c2p3eq3} reduces to equality.  Specifically, the realation $p_i \log_2 \left[ p_i \right]$ becomes
+
+\begin{align*} \label{c2p3eq4}
+p_i \log_2 \left[ p_i \right] = 0  \tag{2.3-4}
+\end{align*}
+
+for the case where $p_i = 0$ or $p_i = 1$.  Moreover, the relation in \ref{c2p3eq4} also represents the \textbf{smallest} possible value/result for the expression $p_i \log_2 \left[ p_i \right]$.  That is to say, that when $p_i = 0$ or $p_i = 1$, then $p_i \log_2 \left[ p_i \right]$ is at a minimum.  \newline
+
+
+The result in \ref{c2p3eq1}, makes it is clear that \emph{only} \textbf{\underline{ONE}} $p_i$ in each $\vec{p} \in \mathbb{P}^n$ may have the value $p_i = 1$; therefore the probability vectors $\vec{p} \in \mathbb{P}^n$ which result in a minimum value for $p_i \log_2 \left[ p_i \right]$ all have exactly one non-zero element with the non-zero element having a value of one.  This implies that there are only $n$ such probability vectors, $\vec{p}^\star$ within any $\mathbb{P}^n$.  Furthermore, the value of $H(X) = \sum_{i=1}^n \left\{ p_i \log_2 \left[ p_i \right] \right\}$ for any such $\vec{p}^\star$ is also zero.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
