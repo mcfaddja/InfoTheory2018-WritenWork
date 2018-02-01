@@ -136,20 +136,20 @@ The result in \ref{c2p3eq1}, makes it is clear that \emph{only} \textbf{\underli
 
 \prob{2.4 a}  Recall the chain-rule for conditional entropies of $X$ given $Y$,
 
-\begin{align*}
-H \left( X \mid Y \right) = H \left( X, Y \right) - H \left( Y \right)
-\end{align*}
-
-We apply the above expression to the case of $g \left( X \right)$ given $X$ to obtain
-
-\begin{align} \label{c2p4eq1}
-H \left( g \left( X \right) \mid X \right) = H \left( g \left( X \right), X \right) - H \left( X \right)  \tag{2.4-1}
+\begin{align}  \label{c2p4eq1}
+H \left( X \mid Y \right) = H \left( X, Y \right) - H \left( Y \right)  \tag{2.4-1}
 \end{align}
 
-by rearranging the expression in \ref{c2p4eq1} as follows,
+We apply the expression in \ref{c2p4eq1} to the case of $g \left( X \right)$ given $X$ to obtain
 
 \begin{align} \label{c2p4eq2}
-H \left( g \left( X \right), X \right) = H \left( X \right) + H \left( g \left( X \right) \mid X \right)  \tag{2.4-2}
+H \left( g \left( X \right) \mid X \right) = H \left( g \left( X \right), X \right) - H \left( X \right)  \tag{2.4-2}
+\end{align}
+
+by rearranging the expression in \ref{c2p4eq2} as follows,
+
+\begin{align} \label{c2p4eq3}
+H \left( g \left( X \right), X \right) = H \left( X \right) + H \left( g \left( X \right) \mid X \right)  \tag{2.4-3}
 \end{align}
 
 we obtain the desired result.
@@ -158,11 +158,11 @@ we obtain the desired result.
 
 \vspace{0.5in}
 
-\prob{2.4 b}  For any given value of $X$, we automatically know $g \left( X \right)$.  Therefore, the expression for $H \left( g \left( X \right), X \right)$ in \ref{c2p4eq2} becomes
+\prob{2.4 b}  For any given value of $X$, we automatically know $g \left( X \right)$.  Therefore, the expression for $H \left( g \left( X \right), X \right)$ in \ref{c2p4eq3} becomes
 
-\begin{align} \label{c2p4eq3}
-H \left( g \left( X \right), X \right) = H \left( X \right)  \tag{2.4-3}
-\end{align}
+\begin{align*} 
+H \left( g \left( X \right), X \right) = H \left( X \right)  
+\end{align*}
 
 which is the desired result.
 
@@ -170,7 +170,7 @@ which is the desired result.
 
 \vspace{0.5in}
 
-\prob{2.4 c}
+\prob{2.4 c}  
 
 
 
