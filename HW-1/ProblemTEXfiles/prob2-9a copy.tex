@@ -1,0 +1,109 @@
+\documentclass[ClusteringConnectionsMAIN.tex]{subfiles}
+
+
+
+
+\begin{document}
+	
+
+\prob{2.9 a}  Let $\rho \left( X, Y \right)$ be a function which is defined accoring to
+
+\begin{align} \label{c2p9eq1}
+\rho \left( X, Y \right) = H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \tag{2.9-1}
+\end{align}
+
+for all $x$ and $y$.  Since conditional probabilites are always non-zero (\emph{for arbitrary} $X$ \emph{and} $Y$ \emph{we have} $H \left( X \mid Y \right) \geq 0$), we can say that $H \left( X \mid Y \right)$ has the property
+
+\begin{align*}
+H \left( X \mid Y \right) \geq 0
+\end{align*} 
+
+and that $H \left( Y \mid X \right)$ has the property
+
+\begin{align*}
+H \left( Y \mid X \right) \geq 0
+\end{align*} 
+
+Applying these properties of $H \left( X \mid Y \right) \geq 0$ and $H \left( Y \mid X \right) \geq 0$ to the expression in \ref{c2p9eq1} yields
+
+\begin{align} \label{c2p9eq2}
+\rho \left( X, Y \right) = H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \, \geq 0  \tag{2.9-2}
+\end{align}
+
+which indicates that $\rho \left( X, Y \right)$ satisfies the first property of a metric over all $x$ and $y$.  By its definition in \ref{c2p9eq1}, we can say that $\rho \left( X, Y \right)$ is symmetric; therefore, we can additionally say that $\rho \left( X, Y \right)$ satisfies the second condition of a metric over all $x$ and $y$. \newline
+
+
+Now, consider three random variables, $X, Y$, and $Z$.  Then write
+
+\begin{align} \label{c2p9eq3}
+\rho \left( X, Y \right) = H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \tag{2.9-3}
+\end{align}
+
+and
+
+\begin{align} \label{c2p9eq4}
+\rho \left( Y, Z \right) = H \left( Y \mid Z \right)+ H \left( Y \mid Z \right)  \tag{2.9-4}
+\end{align}
+
+and
+
+\begin{align} \label{c2p9eq5}
+\rho \left( X, Y \right) = H \left( X \mid Z \right)+ H \left( Z \mid X \right)  \tag{2.9-5}
+\end{align}
+
+By the result in \ref{c2p9eq2}, we see that the expression in \ref{c2p9eq3} satisfies
+
+\begin{align*}
+\rho \left( X, Y \right) = H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \, \geq 0
+\end{align*}
+
+Similarly, the expression in \ref{c2p9eq4} satisfies
+
+\begin{align*}
+\rho \left( Y, Z \right) = H \left( Y \mid Z \right)+ H \left( Z \mid Y \right)  \, \geq 0
+\end{align*}
+
+Then, by addding the expression in \ref{c2p9eq3} and \ref{c2p9eq4} we obtain
+
+\begin{align} \label{c2p9eq6}
+H \left( X \mid Y \right)+ H \left( Y \mid X \right) + H \left( Y \mid Z \right)+ H \left( Z \mid Y \right)  \, &\geq 0  \notag \\
+\biggl[ H \left( X \mid Y \right) + H \left( Y \mid Z \right) \biggr] + \biggl[ H \left( Z \mid Y \right) + H \left( Y \mid X \right) \biggr] \, &\geq  \tag{2.9-6}
+\end{align}
+
+By the chain rule for conditional probabilities, we have $H \left( X \mid Y \right) + H \left( Y \mid Z \right) = H \left( X, Y \mid Z \right)$ and $H \left( Z \mid Y \right) + H \left( Y \mid X \right) = H \left( Z, Y \mid X \right)$ so the expression in \ref{c2p9eq6} becomes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

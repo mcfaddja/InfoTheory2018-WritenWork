@@ -48,35 +48,48 @@ and
 and
 
 \begin{align} \label{c2p9eq5}
-\rho \left( X, Y \right) = H \left( X \mid Z \right)+ H \left( Z \mid X \right)  \tag{2.9-5}
+\rho \left( X, Z \right) = H \left( X \mid Z \right)+ H \left( Z \mid X \right)  \tag{2.9-5}
 \end{align}
 
-By the result in \ref{c2p9eq2}, we see that the expression in \ref{c2p9eq3} satisfies
-
-\begin{align*}
-\rho \left( X, Y \right) = H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \, \geq 0
-\end{align*}
-
-Similarly, the expression in \ref{c2p9eq4} satisfies
-
-\begin{align*}
-\rho \left( Y, Z \right) = H \left( Y \mid Z \right)+ H \left( Z \mid Y \right)  \, \geq 0
-\end{align*}
-
-Then, by addding the expression in \ref{c2p9eq3} and \ref{c2p9eq4} we obtain
+We now add the expression in \ref{c2p9eq3} and \ref{c2p9eq4} to obtain
 
 \begin{align} \label{c2p9eq6}
-H \left( X \mid Y \right)+ H \left( Y \mid X \right) + H \left( Y \mid Z \right)+ H \left( Z \mid Y \right)  \, &\geq 0  \notag \\
-\biggl[ H \left( X \mid Y \right) + H \left( Y \mid Z \right) \biggr] + \biggl[ H \left( Z \mid Y \right) + H \left( Y \mid X \right) \biggr] \, &\geq  \tag{2.9-6}
+H \left( X \mid Y \right)+ H \left( Y \mid X \right) + H \left( Y \mid Z \right)+ H \left( Z \mid Y \right)  \notag \\
+\biggl[ H \left( X \mid Y \right) + H \left( Y \mid Z \right) \biggr] + \biggl[ H \left( Z \mid Y \right) + H \left( Y \mid X \right) \biggr]  \tag{2.9-6}
 \end{align}
 
-By the chain rule for conditional probabilities, we have $H \left( X \mid Y \right) + H \left( Y \mid Z \right) = H \left( X, Y \mid Z \right)$ and $H \left( Z \mid Y \right) + H \left( Y \mid X \right) = H \left( Z, Y \mid X \right)$ so the expression in \ref{c2p9eq6} becomes
+By the chain rule for conditional entropies, we have $H \left( X \mid Y \right) + H \left( Y \mid Z \right) = H \left( X, Y \mid Z \right)$ and $H \left( Z \mid Y \right) + H \left( Y \mid X \right) = H \left( Z, Y \mid X \right)$ so the expression in \ref{c2p9eq6} becomes
+
+\begin{align} 
+H \left( X, Y \mid Z \right) + H \left( Z, Y \mid X \right)  \notag
+\end{align}
+
+Again appling the chain rule for conditional entropies to the previous result, we have
+
+\begin{align} 
+\biggl[ H \left( X \mid Z \right) + H \left( Y \mid X, Z \right) \biggr] + \biggl[ H \left( Z \mid X \right) + H \left( Y \mid Z, X \right) \biggr]   \notag
+\end{align}
+
+SInce conditional entropies are always greater or equal to zero, the $H \left( Y \mid X, Z \right)$ and $H \left( Y \mid Z, X \right)$ terms in the previous result satisfy $H \left( Y \mid X, Z \right) \geq 0$ and $H \left( Y \mid Z, X \right) \geq 0$.  This allows us to rewrite the previous result as
+
+\begin{align} 
+\rho \left( X, Y \right) + \rho \left( Y, Z \right) &= H \left( Y \mid Z \right)+ H \left( Y \mid Z \right) +  H \left( X \mid Y \right)+ H \left( Y \mid X \right)  \notag \\
+&= \biggl[ H \left( X \mid Z \right) + H \left( Y \mid X, Z \right) \biggr] + \biggl[ H \left( Z \mid X \right) + H \left( Y \mid Z, X \right) \biggr] \notag \\
+&\geq H \left( X \mid Z \right) + H \left( Z\mid X \right) \notag 
+\end{align}
+
+Using the definition from \ref{c2p9eq5}, the previous result becomes
+
+\begin{align} 
+\rho \left( X, Y \right) + \rho \left( Y, Z \right) &= \biggl[ H \left( X \mid Z \right) + H \left( Y \mid X, Z \right) \biggr] + \biggl[ H \left( Z \mid X \right) + H \left( Y \mid Z, X \right) \biggr] \notag \\
+&\geq H \left( X \mid Z \right) + H \left( Z\mid X \right) \notag \\
+&\geq \rho \left( X, Z \right)  \notag
+\end{align}
+
+thereby indicating that $\rho \left( X, Y \right) + \rho \left( Y, Z \right) \geq \rho \left( X, Z \right)$ holds and, by extension, that the definition in \ref{c2p9eq1} satisfies the fourth condition of a metric over all $x$ and $y$. \newline
 
 
-
-
-
-
+Finally, we consider the case where $X = Y$ via a one-to-one mapping.  Since $H \left( X, Y \right) = 0$ iff $X$ is a function of $Y$ and $H \left( Y, X \right) = 0$ iff $Y$ is a function of $X$, $\rho \left( X, Y \right)$ can only equal zero if and only if $X = Y$.  This satisfies the third and only remaining condition of a metric over all $x$ and $y$; therefore, for cases where $X$ and $Y$ are related by a one-to-one mapping, $\rho \left( X, Y \right)$ is a metric over all $x$ and $y$.
 
 
 
