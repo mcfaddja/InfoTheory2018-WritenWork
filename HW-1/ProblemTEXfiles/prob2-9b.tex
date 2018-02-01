@@ -1,0 +1,88 @@
+\documentclass[ClusteringConnectionsMAIN.tex]{subfiles}
+
+
+
+
+\begin{document}
+	
+	
+\prob{2.9 b}  Starting with the expression $I \left( X; Y \right) = H \left( X \right) - H \left( X \mid Y \right)$ we rearrange to obtain
+
+\begin{align} \label{c2p9eq7}
+H \left( X \mid Y \right) = H \left( X \right) - I \left( X; Y \right) \tag{2.9-7}
+\end{align}
+
+We also obtain
+
+\begin{align} \label{c2p9eq8}
+H \left( Y \mid X \right) = H \left( Y \right) - I \left( Y; X \right) \tag{2.9-8}
+\end{align}
+
+similarly.  We now apply the expressions in \ref{c2p9eq7} and \ref{c2p9eq8} to the definition of $\rho \left( X, Y \right)$ in \ref{c2p9eq1} to obtain the result
+
+\begin{align}
+\rho \left( X, Y \right) &= H \left( X \mid Y \right)+ H \left( Y \mid X \right) \notag \\
+&= H \left( X \right) - I \left( X; Y \right) + H \left( Y \right) - I \left( Y; X \right) \notag
+\end{align}
+
+Noting that $I \left( X; Y \right) = I \left( Y; X \right)$ the previous result can be simplied to the expression
+
+\begin{align} \label{c2p9eq9}
+\rho \left( X, Y \right) &= H \left( X \right) - I \left( X; Y \right) + H \left( Y \right) - I \left( Y; X \right) \notag \\
+&= H \left( X \right) - I \left( X; Y \right) + H \left( Y \right) - I \left( X; Y \right) \notag \\
+&= H \left( X \right) + H \left( Y \right) - 2 \, I \left( X; Y \right) \tag{2.9-9}
+\end{align}
+
+which proves the first line of the problem.  Next, we note that $I \left( X; Y \right) = H \left( X \right) + H \left( Y \right) - H \left( X, Y \right)$ and apply this relation to the expression in \ref{c2p9eq9} so that we obtain
+
+\begin{align} \label{c2p9eq10}
+\rho \left( X, Y \right) &= H \left( X \right) + H \left( Y \right) - 2 \, I \left( X; Y \right) \notag \\
+&= H \left( X \right) + H \left( Y \right) - I \left( X; Y \right) - I \left( X; Y \right) \notag \\
+&= H \left( X \right) + H \left( Y \right) - I \left( X; Y \right) - \bigl[ H \left( X \right) + H \left( Y \right) - H \left( X, Y \right) \bigr] \notag \\
+&= H \left( X, Y \right) - I \left( X; Y \right)   \tag{2.9-10}
+\end{align}
+
+as our result and proving the second line of the problem.  Finally, we again note $I \left( X; Y \right) = H \left( X \right) + H \left( Y \right) - H \left( X, Y \right)$ and then apply it to the expression in \ref{c2p9eq10} to yield the result
+
+\begin{align} 
+\rho \left( X, Y \right) &= H \left( X, Y \right) - I \left( X; Y \right)   \notag \\
+&= H \left( X, Y \right) - \bigl[ H \left( X \right) + H \left( Y \right) - H \left( X, Y \right) \bigr]  \notag \\
+&= 2 \, H \left( X, Y \right) - H \left( X \right) - H \left( Y \right)   \notag
+\end{align}
+
+which proves the third and final line of the problem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

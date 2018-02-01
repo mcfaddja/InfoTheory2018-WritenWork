@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,11 +468,18 @@ Underfull \vbox (badness 2189) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6])
+(./ProblemTEXfiles/prob2-9b.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
 
 Package caption Warning: Unused \captionsetup[ruled] on input line 20.
 See the caption package documentation for explanation.
 
-[7] (./HW-1.aux)
+[9] (./HW-1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -482,10 +489,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6358 strings out of 492995
- 94635 string characters out of 6132704
- 183735 words of memory out of 5000000
- 9795 multiletter control sequences out of 15000+600000
+ 6365 strings out of 492995
+ 94738 string characters out of 6132704
+ 184792 words of memory out of 5000000
+ 9799 multiletter control sequences out of 15000+600000
  13190 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,43p,682b,3317s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -502,10 +509,10 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on HW-1.pdf (7 pages, 131504 bytes).
+Output written on HW-1.pdf (9 pages, 134129 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
