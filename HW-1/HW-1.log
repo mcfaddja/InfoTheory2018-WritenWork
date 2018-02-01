@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 FEB 2018 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,10 +310,10 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 ] [2] (./HW-1.aux) ) 
 Here is how much of TeX's memory you used:
- 2808 strings out of 492995
- 37574 string characters out of 6132704
- 106368 words of memory out of 5000000
- 6304 multiletter control sequences out of 15000+600000
+ 2809 strings out of 492995
+ 37583 string characters out of 6132704
+ 106382 words of memory out of 5000000
+ 6305 multiletter control sequences out of 15000+600000
  13826 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,43p,648b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -330,7 +330,7 @@ mr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on HW-1.pdf (2 pages, 121485 bytes).
+Output written on HW-1.pdf (2 pages, 121797 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
