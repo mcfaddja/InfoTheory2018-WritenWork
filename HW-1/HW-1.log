@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 FEB 2018 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 FEB 2018 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,15 +433,17 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 106.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-(./ProblemTEXfiles/prob2-3.tex [1{/usr/local/texlive/2017/texmf-var/fonts/map/p
-dftex/updmap/pdftex.map}
+(./ProblemTEXfiles/prob2-3/prob2-3.tex [1{/usr/local/texlive/2017/texmf-var/fon
+ts/map/pdftex/updmap/pdftex.map}
 
-]) (./ProblemTEXfiles/prob2-4a.tex
+]) (./ProblemTEXfiles/prob2-4/prob2-4a.tex
 Underfull \vbox (badness 3977) has occurred while \output is active []
 
  [2])
-(./ProblemTEXfiles/prob2-4b.tex) (./ProblemTEXfiles/prob2-4c.tex [3])
-(./ProblemTEXfiles/prob2-4d.tex) (./ProblemTEXfiles/prob2-9a.tex
+(./ProblemTEXfiles/prob2-4/prob2-4b.tex)
+(./ProblemTEXfiles/prob2-4/prob2-4c.tex [3])
+(./ProblemTEXfiles/prob2-4/prob2-4d.tex)
+(./ProblemTEXfiles/prob2-9/prob2-9a.tex
 Underfull \vbox (badness 2189) has occurred while \output is active []
 
  [4]
@@ -449,22 +451,25 @@ Underfull \vbox (badness 2189) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6])
-(./ProblemTEXfiles/prob2-9b.tex
+(./ProblemTEXfiles/prob2-9/prob2-9b.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
-(./ProblemTEXfiles/prob2-10a.tex) (./ProblemTEXfiles/prob2-10b.tex)
-(./ProblemTEXfiles/prob2-11a.tex) (./ProblemTEXfiles/prob2-11b.tex)
-(./ProblemTEXfiles/prob2-11c.tex) (./ProblemTEXfiles/prob2-11d.tex)
-(./ProblemTEXfiles/prob2-24a.tex [9]
+(./ProblemTEXfiles/prob2-10/prob2-10a.tex)
+(./ProblemTEXfiles/prob2-10/prob2-10b.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11a.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11b.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11c.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11d.tex)
+(./ProblemTEXfiles/prob2-24/prob2-24a.tex [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10])
-[11] (./ProblemTEXfiles/prob2-24b.tex) (./ProblemTEXfiles/prob2-24c.tex)
-[12] (./HW-1.aux)
+[11] (./ProblemTEXfiles/prob2-24/prob2-24b.tex)
+(./ProblemTEXfiles/prob2-24/prob2-24c.tex) [12] (./HW-1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -474,13 +479,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5338 strings out of 492995
- 76137 string characters out of 6132704
+ 5343 strings out of 492995
+ 76542 string characters out of 6132704
  164265 words of memory out of 5000000
  8751 multiletter control sequences out of 15000+600000
  13190 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,43p,873b,2553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,43p,882b,2553s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
