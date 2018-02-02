@@ -14,7 +14,10 @@ We can also define a third random variable $Z$ which describes choosing one of f
 	&= H \left( X \right) + H \left( Y \mid X \right) \notag
 \end{align}
 
-by also using the chain rule $H \left( X, Y \right) = H \left( X \right) + H \left( Y \mid X \right)$.  Applying the fact that $H \left( X \right) = H \left( 1 / 4 \right)$ to the previous result yields
+by also using the chain rule $H \left( X, Y \right) = H \left( X \right) + H \left( Y \mid X \right)$.  Without loss of generality, we also say that the "special" object is represented by $Z = 0$.  That is to say that  $H \left( X \right) = H \left( 1 / 4 \right) = H \left( Z = 0 \right)$.  \newline
+
+
+We continue by appling the relation $H \left( X \right) = H \left( 1 / 4 \right)$ to the previous result gives us
 
 \begin{align}
 H \left( Z \right) &= H \left( X \right) + H \left( Y \mid X \right) \notag \\
@@ -26,7 +29,8 @@ which becomes
 \begin{align} \label{c2p24eq1}
 \longrightarrow H \left( 1/4 \right) &= H \left( Z \right) - H \left( Y \mid X \right) \notag \\
 &= H \left( Z \right) - \sum_{x, y} \biggl\{ p \left( x, y \right) \log_2 \bigl[ p \left( y | x \right) \bigr] \biggr\}  \notag \\
-&= H \left( Z \right) - \sum_{x, y} \biggl\{ p \left( z \right) \log_2 \bigl[ p \left( y | x \right) \bigr] \biggr\}  \tag{2.24-1}
+&= H \left( Z \right) - \sum_{x, y} \biggl\{ \sum_{\substack{z \\ z \neq 0}} \bigl\{ p \left( z \right) \bigr\} \log_2 \bigl[ p \left( y | x \right) \bigr] \biggr\}  \notag \\
+&= H \left( Z \right) - \sum_z \biggl\{ \sum_{x, y} \bigl\{ p \left( z \right) \log_2 \bigl[ p \left( y | x \right) \bigr] \bigr\} \biggr\}   \tag{2.24-1}
 \end{align}
 
 through some simple rearranging along with noting the definition of $H \left( Y \mid X \right)$ and the fact that $Z = X Y$ implies that $p \left( z \right) = p \left( x, y \right)$.  Now, since $\Pr \left[ Z = z \right] = 1 / 4$ for all $z \in \mathcal{Z}$ we can compute the value of $H \left( Z \right)$ to be
@@ -35,7 +39,7 @@ through some simple rearranging along with noting the definition of $H \left( Y 
 H \left( Z \right) = \sum_{i=1}^4 \biggl\{ \frac{1}{4} \log_2 \left[ \frac{1}{4} \right] \biggr\} = 2  \tag{2.24-2}
 \end{align}
 
-We can also say that, when $p \left( y | x \right) = 1/3$ for all $y \in \mathcal{Y}$
+Additionally, we can say that, when $X = 1$, $p \left( y | x \right) = 1/3$ for all $y \in \mathcal{Y}$.  Therefore, we can 
 
 
 
