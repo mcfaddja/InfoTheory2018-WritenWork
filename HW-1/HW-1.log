@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  2 FEB 2018 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  2 FEB 2018 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,6 +454,9 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
 
 ])
 (./ProblemTEXfiles/prob2-4/prob2-4a.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -461,14 +464,14 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]) (./ProblemTEXfiles/prob2-4/prob2-4b.tex)
-(./ProblemTEXfiles/prob2-4/prob2-4c.tex
+(./ProblemTEXfiles/prob2-4/prob2-4c.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]) (./ProblemTEXfiles/prob2-4/prob2-4d.tex)
+[3] (./ProblemTEXfiles/prob2-4/prob2-4d.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -503,7 +506,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Underfull \vbox (badness 3989) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -554,15 +557,14 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13])
+[13]) (./ProblemTEXfiles/prob2-24/prob2-24b.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] (./ProblemTEXfiles/prob2-24/prob2-24b.tex)
-(./ProblemTEXfiles/prob2-24/prob2-24c.tex)
+[14] (./ProblemTEXfiles/prob2-24/prob2-24c.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -625,7 +627,7 @@ mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lin
 e10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on HW-1.pdf (19 pages, 140702 bytes).
+Output written on HW-1.pdf (19 pages, 140822 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
