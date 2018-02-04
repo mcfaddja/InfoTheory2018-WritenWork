@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  2 FEB 2018 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,14 +557,14 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]) (./ProblemTEXfiles/prob2-24/prob2-24b.tex)
+[13]) (./ProblemTEXfiles/prob2-24/prob2-24b.tex
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] (./ProblemTEXfiles/prob2-24/prob2-24c.tex)
+[14])
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -607,10 +607,10 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
 
 [19] (./HW-1.aux) ) 
 Here is how much of TeX's memory you used:
- 5491 strings out of 492980
- 79192 string characters out of 6132510
- 165957 words of memory out of 5000000
- 8862 multiletter control sequences out of 15000+600000
+ 5489 strings out of 492980
+ 79115 string characters out of 6132510
+ 165973 words of memory out of 5000000
+ 8863 multiletter control sequences out of 15000+600000
  17739 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,43p,882b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -627,7 +627,7 @@ mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lin
 e10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on HW-1.pdf (19 pages, 143311 bytes).
+Output written on HW-1.pdf (19 pages, 144374 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
