@@ -6,7 +6,15 @@
 \begin{document}
 	
 
-\prob{2.31}
+\prob{2.31}  Starting with $\Hent{ X \mid g \left( Y \right) } = \Hent{X \mid Y}$, we multiply both sides by $-1$ before adding $\Hent{X}$ to both sides to obtain
+
+\begin{align}  \label{c2p31eq1}
+\Hent{ X \mid g \left( Y \right) } &= \Hent{X \mid Y}   \notag \\
+\Hent{X} - \Hent{ X \mid g \left( Y \right) } &= \Hent{X} - \Hent{X \mid Y} \notag  \\
+\I{X; g \left( X \right) } &= \I{X; Y}  \tag{2.31-1}
+\end{align}
+
+by noting the definition of mutual information.  The expression in \ref{c2p31eq1} implies that in order for $\Hent{ X \mid g \left( Y \right) } = \Hent{X \mid Y}$ to be true, $\I{X; g \left( X \right) } = \I{X; Y}$ must hold.
 
 
 
