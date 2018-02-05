@@ -6,10 +6,18 @@
 \begin{document}
 	
 
-\prob{2.29 b}
+\prob{2.29 b}  Starting with $\I{X, Y; Z}$, we apply the chain rule for mutual information to obtain
 
+\begin{align}
+\I{X, Y; Z} &= \I{X; Z} + \I{Y; Z \mid X}   \notag
+\end{align}
 
+Since mutual information is always greater than or equal to zero (\emph{in this case} $\I{Y; Z \mid X}$), the previous result becomes
 
+\begin{align}
+\I{X, Y; Z} &= \I{X; Z} + \I{Y; Z \mid X}   \notag  \\
+&\geq \I{X; Z}  \notag
+\end{align}
 
 
 

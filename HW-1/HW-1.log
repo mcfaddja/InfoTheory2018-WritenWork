@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,7 +577,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]) (./ProblemTEXfiles/prob2-29/prob2-29a.tex)
-(./ProblemTEXfiles/prob2-29/prob2-29b.tex)
+(./ProblemTEXfiles/prob2-29/prob2-29b.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -587,7 +587,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] (./ProblemTEXfiles/prob2-29/prob2-29c.tex)
+[16]) (./ProblemTEXfiles/prob2-29/prob2-29c.tex)
 (./ProblemTEXfiles/prob2-29/prob2-29d.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
@@ -642,7 +642,7 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb>
-Output written on HW-1.pdf (20 pages, 160487 bytes).
+Output written on HW-1.pdf (20 pages, 161013 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
