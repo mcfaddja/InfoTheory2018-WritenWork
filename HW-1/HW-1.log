@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,7 +599,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
 
 [17]) (./ProblemTEXfiles/prob2-29/prob2-29d.tex)
 (./ProblemTEXfiles/prob2-31/prob2-31.tex)
-(./ProblemTEXfiles/prob2-35/prob2-35.tex)
+(./ProblemTEXfiles/prob2-35/prob2-35.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -609,14 +609,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (22.55pt): 
- Make it at least 23.93335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19] (./ProblemTEXfiles/prob2-42/prob2-42a.tex)
+[18]) (./ProblemTEXfiles/prob2-42/prob2-42a.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42b.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42c.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42d.tex)
@@ -626,7 +619,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] (./HW-1.aux) ) 
+[19] (./HW-1.aux) ) 
 Here is how much of TeX's memory you used:
  5500 strings out of 492980
  79219 string characters out of 6132510
@@ -649,10 +642,10 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb>
-Output written on HW-1.pdf (20 pages, 162809 bytes).
+Output written on HW-1.pdf (19 pages, 162780 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
