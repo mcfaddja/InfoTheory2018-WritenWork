@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,7 +344,14 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks28
 \verbatim@line=\toks29
 \verbatim@in@stream=\read1
-)) (./HW-1.aux)
+)) (./HW-1.aux
+
+LaTeX Warning: Label `c2p11eq3' multiply defined.
+
+
+LaTeX Warning: Label `c2p11eq3' multiply defined.
+
+)
 \openout1 = `HW-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
@@ -359,7 +366,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count126
 \scratchdimen=\dimen141
@@ -533,16 +540,18 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  This may cause the page layout to be inconsistent, however.
 
 [10] (./ProblemTEXfiles/prob2-11/prob2-11a.tex)
-(./ProblemTEXfiles/prob2-11/prob2-11b.tex)
-(./ProblemTEXfiles/prob2-11/prob2-11c.tex)
-(./ProblemTEXfiles/prob2-11/prob2-11d.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11b.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[11]) (./ProblemTEXfiles/prob2-11/prob2-11c.tex)
+(./ProblemTEXfiles/prob2-11/prob2-11d.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -614,30 +623,33 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] (./HW-1.aux) ) 
+[20] (./HW-1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5495 strings out of 492980
- 79169 string characters out of 6132510
- 166098 words of memory out of 5000000
- 8869 multiletter control sequences out of 15000+600000
+ 5497 strings out of 492980
+ 79189 string characters out of 6132510
+ 166169 words of memory out of 5000000
+ 8871 multiletter control sequences out of 15000+600000
  17739 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,43p,882b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb>
-Output written on HW-1.pdf (20 pages, 158107 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on HW-1.pdf (20 pages, 159224 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream

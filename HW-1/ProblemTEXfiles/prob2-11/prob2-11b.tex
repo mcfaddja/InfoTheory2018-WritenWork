@@ -6,10 +6,31 @@
 \begin{document}
 	
 
-\prob{2.11 b}
+\prob{2.11 b}  Note that, by the definitions of both entropy and conditional entropy, the expressions
 
+\begin{align} \label{c2p11eq3}
+0 \leq \Hent{ X_2 \mid X_1 } \leq \bigl( \Hent{X_2} = \Hent{X_1} \bigr)   \tag{2.11-3}
+\end{align}
 
+and 
 
+\begin{align} \label{c2p11eq4}
+0 \leq \Hent{ X_1 \mid X_2 } \leq \bigl( \Hent{X_1} = \Hent{X_2} \bigr)   \tag{2.11-4}
+\end{align}
+
+are both valid.  Dividing \ref{c2p11eq3} by $\Hent{X_1}$ and \ref{c2p11eq4} by $\Hent{X_2}$, we obtain
+
+\begin{align} 
+0 \leq \frac{ \Hent{ X_2 \mid X_1 } }{ \Hent{X_1} }  \leq 1  \notag
+\end{align}
+
+and 
+
+\begin{align} 
+0 \leq \frac{ \Hent{ X_1 \mid X_2 } }{ \Hent{X_2} }  \leq 1  \notag
+\end{align}
+
+Since these quantities are bounded by $\left[ 0, 1 \right]$, the expression in \ref{c2p11eq1} then implies that $0 \leq \rho \leq 1$.
 
 
 
