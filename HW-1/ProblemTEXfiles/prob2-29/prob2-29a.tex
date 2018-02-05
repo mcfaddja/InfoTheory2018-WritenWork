@@ -6,8 +6,18 @@
 \begin{document}
 	
 
-\prob{2.29 a}
+\prob{2.29 a}  Starting with $\Hent{X, Y \mid Z}$, we apply the chain rule for entropies to obtain
 
+\begin{align}
+\Hent{X, Y \mid Z} &= \Hent{X \mid Z} + \Hent{Y \mid X, Z} \notag
+\end{align}
+
+Since all entropies are greater than or equal to zero (\emph{in this case} $\Hent{Y \mid X, Z}$), the previous result can be rewritten as
+
+\begin{align}
+\Hent{X, Y \mid Z} &= \Hent{X \mid Z} + \Hent{Y \mid X, Z} \notag \\
+&\geq \Hent{X \mid Z} \notag
+\end{align}
 
 
 
