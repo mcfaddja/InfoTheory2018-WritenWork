@@ -6,8 +6,26 @@
 \begin{document}
 	
 
-\prob{2.11 a}
+\prob{2.11 a}  Starting with
 
+\begin{align} \label{c2p11eq1}
+\rho &= 1 - \frac{ \Hent{X_2 \mid X_1} }{ \Hent{X_1} }  \tag{2.11-1}
+\end{align}
+
+We obtain a common denominator and note that, since $X_1$ and $X_2$ are identically distributed, $\Hent{X_1} = \Hent{X_2}$ to yield the result
+
+\begin{align} 
+\rho &= 1 - \frac{ \Hent{X_2 \mid X_1} }{ \Hent{X_1} }   \notag \\
+&= \frac{ \Hent{X_1} - \Hent{X_2 \mid X_1} }{ \Hent{X_1} }  \notag \\
+&= \frac{ \Hent{X_2} - \Hent{X_2 \mid X_1} }{ \Hent{X_1} }  \notag
+\end{align}
+
+Now, since $\I{X_1; X_2} = \Hent{X_1} - \Hent{X_1 \mid X_2} = \Hent{X_2} - \Hent{X_2 \mid X_1}$, the previous result finally becomes
+
+\begin{align} \label{c2p11eq2}
+\rho &= \frac{ \Hent{X_2} - \Hent{X_2 \mid X_1} }{ \Hent{X_1} }  \notag \\
+&= \frac{ \I{X_2; X_1 } }{ \Hent{X_1} } = \boxed{ \frac{ \I{X_1; X_2} }{ \Hent{X_1} } }   \tag{2.11-2}
+\end{align}
 
 
 
