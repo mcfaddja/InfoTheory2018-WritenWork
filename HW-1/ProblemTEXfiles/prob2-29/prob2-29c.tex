@@ -6,10 +6,29 @@
 \begin{document}
 	
 
-\prob{2.29 c}
+\prob{2.29 c}  Starting with $\Hent{X, Y, Z} - \Hent{X, Y}$, and noting that $\Hent{X, Y} = \Hent{X} + \Hent{Y \mid X}$ and $\Hent{X, Y, Z} = \Hent{X} + \Hent{Y \mid X} + \Hent{Z \mid X, Y}$, we have
 
+\begin{align} \label{c2p29eq1}
+\Hent{X, Y, Z} - \Hent{X, Y} &= \cancel{ \Hent{X} } + \cancel{ \Hent{Y \mid X} } + \Hent{Z \mid X, Y} - \left( \cancel{ \Hent{X} } + \cancel{ \Hent{Y \mid X} } \right)   \notag \\
+&= \Hent{Z \mid X, Y}   \tag{2.29-1}
+\end{align}
 
+By the definition of conditional mutual information, we have
 
+\begin{align}
+&\I{Y; Z \mid X} = \Hent{Z, X} - \Hent{Z \mid X, Y}  \notag \\
+&\Longrightarrow \Hent{Z \mid X, Y} = \Hent{Z, X} - \I{Y; Z \mid X}  \notag
+\end{align}
+
+Applying the above relation to the expression in \ref{c2p29eq1} gives
+
+\begin{align} \label{c2p29eq2}
+\Hent{X, Y, Z} - \Hent{X, Y} &= \Hent{Z \mid X, Y}   \notag \\
+&= \Hent{Z, X} - \I{Y; Z \mid X}   \notag \\
+&\geq \Hent{Z, X}  \tag{2.29-2} 
+\end{align}
+
+since mutual information is always greater than or equal to zero.
 
 
 
