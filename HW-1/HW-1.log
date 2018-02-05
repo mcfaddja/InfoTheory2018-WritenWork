@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,7 +542,14 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] (./ProblemTEXfiles/prob2-24/prob2-24a.tex
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (22.55pt): 
+ Make it at least 23.93335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12] (./ProblemTEXfiles/prob2-24/prob2-24a.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -552,28 +559,28 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[13]
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]) (./ProblemTEXfiles/prob2-24/prob2-24b.tex
+[14]) (./ProblemTEXfiles/prob2-24/prob2-24b.tex
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14])
+[15])
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] (./ProblemTEXfiles/prob2-29/prob2-29a.tex)
+[16] (./ProblemTEXfiles/prob2-29/prob2-29a.tex)
 (./ProblemTEXfiles/prob2-29/prob2-29b.tex)
 (./ProblemTEXfiles/prob2-29/prob2-29c.tex)
 (./ProblemTEXfiles/prob2-29/prob2-29d.tex)
@@ -583,21 +590,21 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] (./ProblemTEXfiles/prob2-31/prob2-31.tex)
+[17] (./ProblemTEXfiles/prob2-31/prob2-31.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] (./ProblemTEXfiles/prob2-35/prob2-35.tex)
+[18] (./ProblemTEXfiles/prob2-35/prob2-35.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] (./ProblemTEXfiles/prob2-42/prob2-42a.tex)
+[19] (./ProblemTEXfiles/prob2-42/prob2-42a.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42b.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42c.tex)
 (./ProblemTEXfiles/prob2-42/prob2-42d.tex)
@@ -607,7 +614,7 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] (./HW-1.aux) ) 
+[20] (./HW-1.aux) ) 
 Here is how much of TeX's memory you used:
  5495 strings out of 492980
  79169 string characters out of 6132510
@@ -630,10 +637,10 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb>
-Output written on HW-1.pdf (19 pages, 157481 bytes).
+Output written on HW-1.pdf (20 pages, 158107 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
