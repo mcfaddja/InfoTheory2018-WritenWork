@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.2)  4 FEB 2018 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,15 +515,17 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[8]) (./ProblemTEXfiles/prob2-10/prob2-10a.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] (./ProblemTEXfiles/prob2-10/prob2-10a.tex)
-(./ProblemTEXfiles/prob2-10/prob2-10b.tex)
+[9]) (./ProblemTEXfiles/prob2-10/prob2-10b.tex)
 
 Package Fancyhdr Warning: \headheight is too small (22.55pt): 
  Make it at least 23.93335pt.
@@ -607,10 +609,10 @@ Package Fancyhdr Warning: \headheight is too small (22.55pt):
 
 [19] (./HW-1.aux) ) 
 Here is how much of TeX's memory you used:
- 5491 strings out of 492980
- 79129 string characters out of 6132510
- 166025 words of memory out of 5000000
- 8865 multiletter control sequences out of 15000+600000
+ 5493 strings out of 492980
+ 79149 string characters out of 6132510
+ 166054 words of memory out of 5000000
+ 8867 multiletter control sequences out of 15000+600000
  17739 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,43p,882b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -622,15 +624,16 @@ s/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lin
-e10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on HW-1.pdf (19 pages, 147405 bytes).
+5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on HW-1.pdf (19 pages, 156575 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

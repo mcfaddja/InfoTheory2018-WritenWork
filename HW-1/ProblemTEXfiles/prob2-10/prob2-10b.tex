@@ -6,11 +6,21 @@
 \begin{document}
 	
 
-\prob{2.10 b}  
+\prob{2.10 b}  Since the function $\Hent{ \alpha } = - \alpha \log_2 \left[ \alpha \right] - \left( 1 - \alpha \right) \log_2 \left[ 1 - \alpha \right]$ is greater than or equal to zero for all $\alpha \in \left[0, 1 \right]$, we may rewrite the expression in \ref{c2p10eq1} as
 
+\begin{align}  \label{c2p10eq2}
+\Hent{X} &= \Hent{\alpha} + \alpha \Hent{X_1} + \left( 1 - \alpha \right) \Hent{X_2}    \notag \\
+\Hent{X} - \Hent{\alpha} &= \alpha \Hent{X_1} + \left( 1 - \alpha \right) \Hent{X_2}   \notag \\
+\Hent{X} &\leq \Hent{X_1} + \Hent{X_2} \tag{2.10-2}
+\end{align}
 
+by also noting that $ \alpha \Hent{X_1} \leq \Hent{X_1}$ and $\left( 1 - \alpha \right) \Hent{X_2} \leq \Hent{X_2}$.  Taking the expression in \ref{c2p10eq2} to the power $2$ gives
 
+\begin{align}  \label{c2p10eq3}
+2^{\Hent{X}} &\leq 2^{\Hent{X_1} + \Hent{X_2}} 
+\end{align}
 
+We can interpret the expression in \ref{c2p10eq3} as indicating that, while $X_1$ and $X_2$ may have disjoint alphabets, it is possible that some combinations of elements from these alphabets may yield identical entropies.
 
 
 
