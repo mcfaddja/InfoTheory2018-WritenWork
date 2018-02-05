@@ -6,10 +6,36 @@
 \begin{document}
 	
 
-\prob{2.10 a}
+\prob{2.10 a}  Let $X_1$ and $X_2$ be discrete R.V.s having PMFs $p_1 \left( \cdot \right)$ and $p_2  \left( \cdot \right)$, respectively.  Furthermore, let the alphabets of $X_1$ and $X_2$ be denoted as $\mathcal{X}_1$ and $\mathcal{X}_2$, respectively.  These alphabets are defined $\mathcal{X}_1 = \left\{ 1, 2, \dots, m \right\}$ and $\mathcal{X}_2 = \left\{ m + 1, \dots, n \right\}$, where $m, n \in \Z^+ ni m < n$.  Now define another R.V. $X$ such that
 
+\begin{align}
+X = \left\{ \begin{array}{l c c}
+X_1, &\ \text{with probability} & \alpha \\ 
+ & & \\
+X_2, & \text{with probability} & 1 - \alpha 
+\end{array}\right. \notag
+\end{align}
 
+In order to find $\Hent{X}$ in terms of $\Hent{X_1}$, $\Hent{X_2}$, and $\alpha$, we must first define the function, of $X$, $\theta = \f{X}$,  as follows
 
+\begin{align} 
+\f{X} = \left\{ \begin{array}{l c c}
+1, &\ \text{when} & X = X_1 \\ 
+& & \\
+2, & \text{when} & X = X_2
+\end{array}\right.  \notag
+\end{align}
+
+Noting that $\Hent{X} = \Hent{X, \f{X}} = \Hent{\f{X}} + \Hent{X \mid \f{X}}$, we can write
+
+\begin{align}  \label{c2p10eq1}
+\Hent{X} &= \Hent{X, \f{X}}   \notag \\
+&= \Hent{\f{X}} + \Hent{X \mid \f{X}}  \notag \\
+&= \Hent{\f{X}} + \p{\f{X} = 1} \Hent{X \mid \f{X} = 1} + \p{\f{X} = 2} \Hent{X \mid \f{X} = 2}  \notag \\
+&= \boxed{ \Hent{\alpha} + \alpha \Hent{X_1} + \left( 1 - \alpha \right) \Hent{X_2} }   \tag{2.10-1}
+\end{align}
+
+which gives $\Hent{X}$ in terms of $\Hent{X_1}$, $\Hent{X_2}$, and $\alpha$, where $\Hent{ \alpha }$ is the binary entropy function written, in terms of $\alpha$, as $\Hent{ \alpha } = - \alpha \log_2 \left[ \alpha \right] - \left( 1 - \alpha \right) \log_2 \left[ 1 - \alpha \right]$.
 
 
 
